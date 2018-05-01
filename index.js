@@ -16,7 +16,7 @@ import AlbumList from './src/components/AlbumList';
 // Create a component
 // fetch: http://rallycoding.herokuapp.com/api/music_albums
 const App = () => (
-  <View>
+  <View style={{ flex: 1 }}>
     <Header headerText='Albums' />
     <AlbumList />
   </View>
